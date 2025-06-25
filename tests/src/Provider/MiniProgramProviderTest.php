@@ -1,12 +1,12 @@
 <?php
 
-namespace Oakhope\OAuth2\Client\Test\Provider;
+namespace Zxkiller\OAuth2\Client\Test\Provider;
 
 use League\OAuth2\Client\Tool\QueryBuilderTrait;
 use Mockery as m;
-use Oakhope\OAuth2\Client\Provider\MiniProgramProvider;
-use Oakhope\OAuth2\Client\Provider\MiniProgramResourceOwner;
-use Oakhope\OAuth2\Client\Token\MiniProgram\AccessToken;
+use Zxkiller\OAuth2\Client\Provider\MiniProgramProvider;
+use Zxkiller\OAuth2\Client\Provider\MiniProgramResourceOwner;
+use Zxkiller\OAuth2\Client\Token\MiniProgram\AccessToken;
 
 class MiniProgramProviderTest extends \PHPUnit_Framework_TestCase
 {
