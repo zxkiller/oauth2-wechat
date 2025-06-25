@@ -9,28 +9,22 @@
 
 This package provides Wechat OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
-- DONE:
-    > Website SDK, Mini Programs
-
-- TODO: 
-    > Mobile App SDK 
-
 ## Installation
 
 To install, use composer:
 
 ```
-composer require oakhope/oauth2-wechat
+composer require zxkiller/oauth2-wechat
 ```
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\Oakhope\OAuth2\Client\Provider\{WebProvider}` as the provider.
+Usage is the same as The League's OAuth client, using `\Zxkiller\OAuth2\Client\Provider\{WebProvider}` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new \Oakhope\OAuth2\Client\Provider\WebProvider([
+$provider = new \Zxkiller\OAuth2\Client\Provider\WebProvider([
         'appid' => '{wechat-client-id}',
         'secret' => '{wechat-client-secret}',
         'redirect_uri' => 'https://example.com/callback-url'
@@ -98,7 +92,7 @@ Once your application is authorized, you can refresh an expired token using a re
 _This example uses [Brent Shaffer's](https://github.com/bshaffer) demo OAuth 2.0 application named **Lock'd In**. See authorization code example above, for more details._
 
 ```php
-$provider = new \Oakhope\OAuth2\Client\Provider\WebProvider([
+$provider = new \Zxkiller\OAuth2\Client\Provider\WebProvider([
         'appid' => '{wechat-client-id}',
         'secret' => '{wechat-client-secret}',
         'redirect_uri' => 'https://example.com/callback-url'
@@ -115,23 +109,18 @@ if ($existingAccessToken->hasExpired()) {
 }
 ```
 
-## Testing
-
-``` bash
-$ ./vendor/bin/phpunit --colors tests
-```
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/oakhope/oauth2-wechat/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/zxkiller/oauth2-wechat/blob/master/CONTRIBUTING.md) for details.
 
 
 ## Credits
 
-- [Benji Wang](https://github.com/oakhope)
-- [All Contributors](https://github.com/oakhope/oauth2-wechat/contributors)
+- [Zhang Xiao](https://github.com/zxkiller)
+- [All Contributors](https://github.com/zxkiller/oauth2-wechat/contributors)
 
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/oakhope/oauth2-wechat/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/zxkiller/oauth2-wechat/blob/master/LICENSE) for more information.
