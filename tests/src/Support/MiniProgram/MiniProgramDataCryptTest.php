@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Oakhope\OAuth2\Client\Test\Support\MiniProgram;
+namespace Zxkiller\OAuth2\Client\Test\Support\MiniProgram;
 
 use Mockery as m;
-use Oakhope\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
+use Zxkiller\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
 
 class MiniProgramDataCryptTest extends \PHPUnit_Framework_TestCase
 {
