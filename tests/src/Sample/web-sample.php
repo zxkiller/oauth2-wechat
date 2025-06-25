@@ -8,7 +8,7 @@ $redirect_uri = $ini_array['redirect_uri'];
 require_once(__DIR__."/../../../vendor/autoload.php");
 session_start();
 
-$provider = new \Oakhope\OAuth2\Client\Provider\WebProvider(
+$provider = new \Zxkiller\OAuth2\Client\Provider\WebProvider(
     [
         'appid' => $appid,
         'secret' => $appsecret,
