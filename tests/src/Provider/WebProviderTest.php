@@ -1,9 +1,9 @@
-<?php namespace Oakhope\OAuth2\Client\Test\Provider;
+<?php namespace Zxkiller\OAuth2\Client\Test\Provider;
 
 use League\OAuth2\Client\Tool\QueryBuilderTrait;
 use Mockery as m;
-use Oakhope\OAuth2\Client\Provider\WebProvider;
-use Oakhope\OAuth2\Client\Provider\WebResourceOwner;
+use Zxkiller\OAuth2\Client\Provider\WebProvider;
+use Zxkiller\OAuth2\Client\Provider\WebResourceOwner;
 
 class WebProviderTest extends \PHPUnit_Framework_TestCase
 {
