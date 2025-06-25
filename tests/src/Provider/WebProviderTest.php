@@ -10,7 +10,7 @@ class WebProviderTest extends \PHPUnit_Framework_TestCase
     use QueryBuilderTrait;
 
     /**
-     * @var \Oakhope\OAuth2\Client\Provider\WebProvider
+     * @var \Zxkiller\OAuth2\Client\Provider\WebProvider
      */
     protected $provider;
 
