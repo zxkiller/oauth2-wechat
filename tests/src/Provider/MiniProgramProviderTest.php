@@ -13,7 +13,7 @@ class MiniProgramProviderTest extends \PHPUnit_Framework_TestCase
     use QueryBuilderTrait;
 
     /**
-     * @var \Oakhope\OAuth2\Client\Provider\MiniProgramProvider
+     * @var \Zxkiller\OAuth2\Client\Provider\MiniProgramProvider
      */
     protected $provider;
 
