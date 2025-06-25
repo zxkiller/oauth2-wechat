@@ -1,11 +1,11 @@
 {
-  "name": "oakhope/oauth2-wechat",
+  "name": "zxkiller/oauth2-wechat",
   "type": "library",
   "description": "微信登录认证授权 Wechat login authorization. This package provides Wechat OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
   "authors": [
     {
-      "name": "Benji Wang",
-      "email": "oak.hope@gmail.com"
+      "name": "Zhang Xiao",
+      "email": "zhangxiaomail@163.com"
     }
   ],
   "keywords": [
@@ -21,7 +21,7 @@
     "authorization",
     "authorisation"
   ],
-  "homepage": "https://github.com/oakhope/oauth2-wechat",
+  "homepage": "https://github.com/zxkiller/oauth2-wechat",
   "license": "MIT",
   "require": {
     "league/oauth2-client": "^2.2"
@@ -36,12 +36,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Oakhope\\OAuth2\\Client\\": "src/"
+      "Zxkiller\\OAuth2\\Client\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Oakhope\\OAuth2\\Client\\Test\\": "tests/src/"
+      "Zxkiller\\OAuth2\\Client\\Test\\": "tests/src/"
     }
   },
   "extra": {
