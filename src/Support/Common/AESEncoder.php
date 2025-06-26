@@ -1,7 +1,5 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Support\Common;
+namespace Zxkiller\OAuth2\Client\Support\Common;
 
 class AESEncoder
 {

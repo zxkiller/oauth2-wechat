@@ -1,7 +1,5 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Grant\MiniProgram;
+namespace Zxkiller\OAuth2\Client\Grant\MiniProgram;
 
 class AuthorizationCode extends \League\OAuth2\Client\Grant\AuthorizationCode
 {

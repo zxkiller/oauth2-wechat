@@ -1,7 +1,5 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Provider;
+namespace Zxkiller\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Grant\AbstractGrant;
 use League\OAuth2\Client\Provider\AbstractProvider;
@@ -10,7 +8,7 @@ use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Tool\ArrayAccessorTrait;
 use League\OAuth2\Client\Tool\RequiredParameterTrait;
 use League\OAuth2\Client\Token\AccessToken;
-use Oakhope\OAuth2\Client\Grant\MiniProgram\AuthorizationCode;
+use Zxkiller\OAuth2\Client\Grant\MiniProgram\AuthorizationCode;
 use Psr\Http\Message\ResponseInterface;
 
 class MiniProgramProvider extends AbstractProvider
@@ -113,7 +111,7 @@ class MiniProgramProvider extends AbstractProvider
      */
     protected function createAccessToken(array $response, AbstractGrant $grant)
     {
-        return new \Oakhope\OAuth2\Client\Token\MiniProgram\AccessToken(
+        return new \Zxkiller\OAuth2\Client\Token\MiniProgram\AccessToken(
             $response
         );
     }

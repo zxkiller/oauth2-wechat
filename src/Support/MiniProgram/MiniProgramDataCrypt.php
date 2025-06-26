@@ -1,12 +1,8 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Support\MiniProgram;
+namespace Zxkiller\OAuth2\Client\Support\MiniProgram;
 
 /**
  * 对微信小程序用户加密数据的解密
- *
- * @copyright Copyright (c) 1998-2014 Tencent Inc.
  */
 class MiniProgramDataCrypt
 {

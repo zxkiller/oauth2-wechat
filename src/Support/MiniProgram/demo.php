@@ -1,6 +1,6 @@
 <?php
 
-use Oakhope\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
+use Zxkiller\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
 
 require_once(__DIR__.'/../../../vendor/autoload.php');
 

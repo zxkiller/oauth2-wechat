@@ -1,12 +1,10 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Provider;
+namespace Zxkiller\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
-use Oakhope\OAuth2\Client\Token\MiniProgram\AccessToken;
-use Oakhope\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
+use Zxkiller\OAuth2\Client\Token\MiniProgram\AccessToken;
+use Zxkiller\OAuth2\Client\Support\MiniProgram\MiniProgramDataCrypt;
 
 class MiniProgramResourceOwner implements ResourceOwnerInterface
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Zxkiller\OAuth2\Client\Provider;
+namespace Zxkiller\OAuth2\Client\Provider\MobileApp;
 
 use League\OAuth2\Client\Grant\AbstractGrant;
 use League\OAuth2\Client\Provider\AbstractProvider;
@@ -9,7 +9,7 @@ use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\ArrayAccessorTrait;
 use Psr\Http\Message\ResponseInterface;
 
-class WebProvider extends AbstractProvider
+class Provider extends AbstractProvider
 {
     use ArrayAccessorTrait;
 

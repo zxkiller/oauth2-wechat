@@ -1,7 +1,5 @@
 <?php
-
-
-namespace Oakhope\OAuth2\Client\Token\MiniProgram;
+namespace Zxkiller\OAuth2\Client\Token\MiniProgram;
 
 class AccessToken extends \League\OAuth2\Client\Token\AccessToken
 {

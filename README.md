@@ -1,13 +1,11 @@
 # Wechat Provider for OAuth 2.0 Client
 
-[![Latest Version](https://img.shields.io/github/release/oakhope/oauth2-wechat.svg?style=flat-square)](https://github.com/oakhope/oauth2-wechat/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build Status](https://img.shields.io/travis/oakhope/oauth2-wechat/master.svg?style=flat-square)](https://travis-ci.org/oakhope/oauth2-wechat)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/oakhope/oauth2-wechat.svg?style=flat-square)](https://scrutinizer-ci.com/g/oakhope/oauth2-wechat/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/oakhope/oauth2-wechat.svg?style=flat-square)](https://scrutinizer-ci.com/g/oakhope/oauth2-wechat)
-[![Total Downloads](https://img.shields.io/packagist/dt/oakhope/oauth2-wechat.svg?style=flat-square)](https://packagist.org/packages/oakhope/oauth2-wechat)
-
 This package provides Wechat OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
+
+
+ -- TODO: MiniProgram, Web
+
+
 
 ## Installation
 
@@ -19,12 +17,12 @@ composer require zxkiller/oauth2-wechat
 
 ## Usage
 
-Usage is the same as The League's OAuth client, using `\Zxkiller\OAuth2\Client\Provider\{WebProvider}` as the provider.
+Usage is the same as The League's OAuth client, using `\Zxkiller\OAuth2\Client\Provider\{MobileApp}\Provider` as the provider.
 
 ### Authorization Code Flow
 
 ```php
-$provider = new \Zxkiller\OAuth2\Client\Provider\WebProvider([
+$provider = new \Zxkiller\OAuth2\Client\Provider\MobileApp\Provider([
         'appid' => '{wechat-client-id}',
         'secret' => '{wechat-client-secret}',
         'redirect_uri' => 'https://example.com/callback-url'
@@ -92,7 +90,7 @@ Once your application is authorized, you can refresh an expired token using a re
 _This example uses [Brent Shaffer's](https://github.com/bshaffer) demo OAuth 2.0 application named **Lock'd In**. See authorization code example above, for more details._
 
 ```php
-$provider = new \Zxkiller\OAuth2\Client\Provider\WebProvider([
+$provider = new \Zxkiller\OAuth2\Client\Provider\MobileApp\Provider([
         'appid' => '{wechat-client-id}',
         'secret' => '{wechat-client-secret}',
         'redirect_uri' => 'https://example.com/callback-url'
@@ -108,7 +106,6 @@ if ($existingAccessToken->hasExpired()) {
     // Purge old access token and store new access token to your data store.
 }
 ```
-
 
 ## Contributing
 

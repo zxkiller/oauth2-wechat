@@ -1,15 +1,13 @@
 <?php
+namespace Zxkiller\OAuth2\Client\Support\MiniProgram;
 
-
-namespace Oakhope\OAuth2\Client\Support\MiniProgram;
-
-use Oakhope\OAuth2\Client\Support\Common\AESEncoder;
+use Zxkiller\OAuth2\Client\Support\Common\AESEncoder;
 
 /**
  * Class PKCS7Encoder
  *
  * 提供基于PKCS7算法的加解密接口
- * @package Oakhope\OAuth2\Client\SDK\MiniProgram
+ * @package Zxkiller\OAuth2\Client\SDK\MiniProgram
  */
 class PKCS7Encoder
 {

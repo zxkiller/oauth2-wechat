@@ -1,9 +1,9 @@
 <?php
-namespace Zxkiller\OAuth2\Client\Provider;
+namespace Zxkiller\OAuth2\Client\Provider\MobileApp;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
-class WebResourceOwner implements ResourceOwnerInterface
+class ResourceOwner implements ResourceOwnerInterface
 {
     /**
      * Raw response
